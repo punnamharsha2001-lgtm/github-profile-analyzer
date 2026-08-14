@@ -15,7 +15,7 @@ async function startServer() {
       console.log(`GitHub Profile Analyzer API running on port ${PORT}`);
     });
   } catch (error) {
-    console.error("Database connection failed:", error.message);
+    console.error("Database connection failed:", error);
     process.exit(1);
   }
 }
