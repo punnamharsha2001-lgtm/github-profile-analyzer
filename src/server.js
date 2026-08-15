@@ -11,7 +11,7 @@ async function startServer() {
     await connection.ping();
     connection.release();
 
-    app.listen(PORT,"0.0.0.0" () => {
+   app.listen(PORT, "0.0.0.0", () => {
       console.log(`GitHub Profile Analyzer API running on port ${PORT}`);
     });
   } catch (error) {
